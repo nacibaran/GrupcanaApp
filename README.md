@@ -54,7 +54,8 @@ container engine installed.
 Simply create a `.env` file in the same directory and run `docker-compose config` to see if the docker-compose file is
 correctly configured.
 
-### docker
+
+
 
 Otherwise, you could simply run the images separately via the `docker` command:
 
@@ -79,6 +80,13 @@ git clone https://github.com/nacibaran/GrupcanaApp.git
 ```
 
 When you are trying to develop on the project simply run
+
+### open vsCode term
+
+run -> npm install next
+run -> npm install @types/next --save-dev
+run -> npm install -g yarn 
+### docker
 
 ```bash
 yarn dev
