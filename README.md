@@ -75,7 +75,7 @@ docker run -d -p 8081:8081 -e REDIS_URL=redis://your-ip:6379 websyncplay/websync
 To get started with running the project directly via node, clone the repository via:
 
 ```bash
-git clone https://github.com/Web-SyncPlay/Web-SyncPlay
+git clone https://github.com/nacibaran/GrupcanaApp.git
 ```
 
 When you are trying to develop on the project simply run
