@@ -1,5 +1,5 @@
 # Grup-Cana
-![logo_white](https://github.com/nacibaran/GrupcanaApp/assets/101458424/3b614121-8726-404f-af82-867d8ecbbc8e =100x100)
+![logo-Grupcana](https://github.com/nacibaran/GrupcanaApp/assets/101458424/879dd1c5-553b-49e7-a1e9-0f38602ccc38)
 
 Watch videos, listen to music or tune in for a live stream and all that with your friends. Grup-Cana is a software
 that lets you synchronise your playback with all your friends with a clean modern Web-UI written
