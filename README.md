@@ -1,11 +1,6 @@
-[![Website](https://img.shields.io/website?down_color=red&down_message=offline&label=Website&up_color=green&up_message=online&url=https%3A%2F%2Fweb-syncplay.de)](https://demo.web-syncplay.de)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/35f7884623744a5c8ad64e184f6f5dcf)](https://www.codacy.com/gh/Web-SyncPlay/Web-SyncPlay/dashboard?utm_source=github.com&utm_medium=referral&utm_content=Web-SyncPlay/Web-SyncPlay&utm_campaign=Badge_Grade)
-[![CodeFactor](https://www.codefactor.io/repository/github/web-syncplay/web-syncplay/badge)](https://www.codefactor.io/repository/github/web-syncplay/web-syncplay)
-[![Docker Image Size (tag)](https://img.shields.io/docker/image-size/websyncplay/websyncplay/latest?logo=docker)](https://hub.docker.com/r/websyncplay/websyncplay)
+# Grup-Cana
 
-# Web-SyncPlay
-
-Watch videos, listen to music or tune in for a live stream and all that with your friends. Web-SyncPlay is a software
+Watch videos, listen to music or tune in for a live stream and all that with your friends. Grup-Cana is a software
 that lets you synchronise your playback with all your friends with a clean modern Web-UI written
 in [React](https://reactjs.org/) for [Next.js](https://nextjs.org), designed
 using [Tailwind CSS](https://tailwindcss.com/) and build on top
@@ -54,9 +49,6 @@ container engine installed.
 
 ### docker-compose
 
-For ease of use there is an
-example [docker-compose.yml](https://github.com/Web-SyncPlay/Web-SyncPlay/docker-compose.yml) file provided, which you
-can copy and adjust to fit your deployment.
 
 Simply create a `.env` file in the same directory and run `docker-compose config` to see if the docker-compose file is
 correctly configured.
