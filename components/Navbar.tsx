@@ -49,7 +49,7 @@ const Navbar = ({ roomId }: { roomId?: string }) => {
           >
             <div className={"flex items-center mx-1"}>
               <IconShare className={"mr-1"} />
-              Share
+              Paylaş
             </div>
           </Button>
         </>

@@ -20,8 +20,8 @@ RUN yarn build
 FROM node:21.0-alpine AS runner
 WORKDIR /app
 
-ENV SITE_NAME="Web-SyncPlay"
-ENV PUBLIC_DOMAIN="https://web-syncplay.de"
+ENV SITE_NAME="GrupCana"
+ENV PUBLIC_DOMAIN="http://35.173.136.177:8081"
 ENV REDIS_URL="redis://redis:6379"
 
 EXPOSE 3000

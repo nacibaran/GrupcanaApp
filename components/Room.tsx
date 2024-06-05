@@ -98,7 +98,7 @@ const Room: FC<Props> = ({ id }) => {
               setUrl("")
             }}
           >
-            Play
+            Başlat
           </InputUrl>
         </div>
 

@@ -79,7 +79,7 @@ const PlaylistMenu: FC<Props> = ({ socket }) => {
           className={"sm:rotate-90"}
         />
         <div className={classNames(!expanded && "sm:hidden")}>
-          {expanded ? "Hide" : "Show"} Playlist
+          {expanded ? "Gizle" : "Göster"} 
         </div>
       </ControlButton>
       {expanded && (
@@ -92,7 +92,7 @@ const PlaylistMenu: FC<Props> = ({ socket }) => {
             className={"my-1"}
             onSubmit={() => addItem(url)}
           >
-            Add
+            Ekle
           </InputUrl>
           <DragDropContext
             onDragEnd={(result) => {

@@ -1,10 +1,6 @@
 export function getSiteName(): string {
-  if ("SITE_NAME" in process.env) {
-    return <string>process.env.SITE_NAME
-  }
-
-  console.warn("ENV 'SITE_NAME' has no value, using default:", "Web-SyncPlay")
-  return "Web-SyncPlay"
+ 
+  return "GrupCana"
 }
 
 export function getSiteDomain(): string {
@@ -13,11 +9,7 @@ export function getSiteDomain(): string {
     return domain.replace(/\/+$/, "")
   }
 
-  console.warn(
-    "ENV 'PUBLIC_DOMAIN' has no value, using default:",
-    "https://web-syncplay.de"
-  )
-  return "https://web-syncplay.de"
+  return "http://35.173.136.177:8081"
 }
 
 export function getRedisURL(): string {
@@ -38,5 +30,5 @@ export function getDefaultSrc(): string {
   }
 
   // console.warn("ENV 'DEFAULT_SRC' has no value, using no src")
-  return "https://youtu.be/NcBjx_eyvxc4"
+  return "https://www.youtube.com/watch?v=Y3fasOwFCrs&list=PLcNWqzWzYG2vjpRziWc7cs8S6TRtLVbJ7"
 }
